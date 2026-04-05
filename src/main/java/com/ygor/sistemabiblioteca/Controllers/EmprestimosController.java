@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.ygor.sistemabiblioteca.Services.EmprestimoService;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/livros")
 public class EmprestimosController {
